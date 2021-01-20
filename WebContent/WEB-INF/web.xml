@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <servlet>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>web.Connexion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/Connexion</url-pattern>
+  </servlet-mapping>  
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.42</version>
+</dependency>
+</web-app>
